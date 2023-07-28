@@ -150,10 +150,10 @@ ul.topbar_ls_r {
 .download:hover .download_qr {
     height: 150px;
 }
-.logo_div img {
+/* .logo_div img {
     width: 100%;
     max-height: 100px;
-}
+} */
 .navbar {
     position: relative;
     margin: 0 auto;
