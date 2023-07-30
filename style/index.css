@@ -855,6 +855,7 @@ ul.topbar_ls_r {
     width: 13.33%;
     height: 100%;
     list-style-type: none;
+    margin-bottom: 0;
     /* margin-block-end: 0; */
 }
 
