@@ -20,6 +20,52 @@
 </head>
 
 <body>
+  <nav class="mobile_side_panel navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)"><img src="./static/images/logo-mi2.png" alt="" class="w-25  d-block"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">手机APP
+            </a>
+              <!-- <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link</a></li>
+                <li><a class="dropdown-item" href="#">Another link</a></li>
+                <li><a class="dropdown-item" href="#">A third link</a></li>
+              </ul>   -->
+              <div class="qrCode dropdown-menu">
+                <img src="./static/images/78c30d4f259ed43ab20e810a522a6249.png">
+                扫码领取新人百元礼包
+              </div>
+
+            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">个人中心</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">售后服务</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">人工客服</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">购物车</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">登录/注册</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" class="bc2top">回到顶部</a>
+          </li>    
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="mytopbar  row">
     <ul class="mytopbar_ls col-sm-7">
       <li><a href="#">小米商城</a></li>
@@ -67,7 +113,7 @@
 
     <!-- </div> -->
   </div>
-  <div class="row navbar container-xl">
+  <div class="row mynavbar container-xl">
     <div class="col-md-2 p-3  text-white">
       <div class="logo_div">
         <img src="./static/images/logo-mi2.png" alt="" class="img-fluid mx-auto d-block">
@@ -1073,6 +1119,7 @@
     
   </div>
   <div class="side_panel">
+
     <a href="javascript:void(0);" class="download_qr1">
       <img class="static" src="./static/images/98a23aae70f25798192693f21c4d4039.png">
       <img class="Bhover" src="./static/images/74c4fcb4475af8308e9a670db9c01fdf.png">
@@ -1104,12 +1151,14 @@
       <img class="Bhover" src="./static/images/692a6c3b0a93a24f74a29c0f9d68ec71.png">
       购物车
     </a>
-    <a href="javascript:void(0);" id="bc2top">
+    <a href="javascript:void(0);" class="bc2top">
       <img class="static" src="./static/images/totop.png">
       <img class="Bhover" src="./static/images/totop_hover.png">
       回到顶部
     </a>
   </div>
+  
+
 </body>
 <script src="./js/script.js"></script>
 

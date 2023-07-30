@@ -214,12 +214,12 @@ ul.topbar_ls_r {
     max-height: 56px;
 }
 
-.navbar {
+.mynavbar {
     position: relative;
     margin: 0 auto;
 }
 
-.navbar .nav_items>a {
+.mynavbar .nav_items>a {
     display: inline-block;
     /* padding: 10px 20px; */
     /* margin: 10px; */
@@ -254,7 +254,7 @@ ul.topbar_ls_r {
     border-top: 1px solid rgb(100, 100, 100);
 }
 
-.navbar .nav_items ul li a:hover {
+.mynavbar .nav_items ul li a:hover {
     color: orange;
 }
 
@@ -986,10 +986,10 @@ ul.topbar_ls_r {
     }
 
     .grid_container p,
-    h6,
-    span,
-    del,
-    i {
+    .grid_container h6,
+    .grid_container span,
+    .grid_container del,
+    .grid_container i {
         font-size: 0.4rem !important;
     }
 
@@ -1052,6 +1052,12 @@ ul.topbar_ls_r {
         margin-top: 10px;
         padding: 5px 10px;
         border: 2px solid orange;
+    }
+    .mobile_side_panel {
+        display: block !important;
+    }
+    .mytopbar {
+        display: none;
     }
 }
 
@@ -1132,4 +1138,9 @@ ul.topbar_ls_r {
 
     color: blueviolet;
     font-size: 15px;
+}
+
+.mobile_side_panel {
+    display: none;
+
 }
