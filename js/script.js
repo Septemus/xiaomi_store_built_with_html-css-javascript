@@ -1,3 +1,4 @@
+// import {Swiper} from "swiper"
 var mySwiper = new Swiper('.swiper', {
   loop: true, // 循环模式选项
 
